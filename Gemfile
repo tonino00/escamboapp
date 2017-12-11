@@ -44,6 +44,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'better_errors'
+  #Generate Entity-Relationship Diagrams for Rails applications 
+  gem 'rails-erd'
 end
 
 group :development do
