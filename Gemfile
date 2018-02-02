@@ -21,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 #Sb Admin
 gem 'bootstrap_sb_admin_base_v2'
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
