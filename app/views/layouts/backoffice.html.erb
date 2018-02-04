@@ -9,8 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
-
     <title>Escamboapp</title>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -29,6 +27,7 @@
 
 
     <div id="wrapper">
+    			<%= render partial: "layouts/backoffice_shared/navigation" %>
 					<%= yield %>
     </div>
     <!-- /#wrapper -->
