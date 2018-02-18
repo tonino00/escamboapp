@@ -6,20 +6,21 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-puts "Cadastrando as Categorias..."
+puts "Cadastrando as CATEGORIAS..."
 
-categories = [  "Animais e acessórios",
-                "Esportes",
-                "Para a sua casa",
-                "Eletrônicos e celulares",
-                "Bebês e crianças",
-                "Veículos e barcos",
-                "Imóveis",
-                "Empregos e negócios"]
+categories = [ "Animais e acessórios" ,
+							 "Esportes" ,
+							 "Para a sua casa" ,
+							 "Eletrônicos e celulares" ,
+							 "Música e hobbies" ,
+							 "Bebês e crianças" ,
+							 "Moda e beleza" ,
+						 	 "Veículos e barcos" ,
+						 	 "Imóveis" ,
+						 	 "Empregos e negócios" ]
 
+	categories.each do |category|
+		Category.find_or_create_by(description: category)
+	end
 
-categories.each do |category|
-    Category.find_or_create_by(description: category)
-end
-
-puts "Categorias cadastradas com sucesso!"
+	puts "CATEGORIAS cadastradas com sucesso!"
