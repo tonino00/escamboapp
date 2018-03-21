@@ -11,8 +11,6 @@ gem 'foreman'
 gem 'devise'
 #Translations for the devise gem
 gem 'devise-i18n'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 #postgresql
 gem 'pg', '~> 0.18.4'
 # Use SCSS for stylesheets
