@@ -18,6 +18,9 @@ class Backoffice::CategoriesController < BackofficeController
     end
   end
 
+  def del
+  end
+
   def edit
   end
 
