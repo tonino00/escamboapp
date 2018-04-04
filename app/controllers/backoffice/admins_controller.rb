@@ -1,9 +1,5 @@
 class Backoffice::AdminsController < BackofficeController
-<<<<<<< HEAD
-  before_action :set_admin, only: [:edit, :update]
-=======
   before_action :set_admin, only: [:edit, :update, :destroy]
->>>>>>> master
   
   def index
   	@admins = Admin.all
@@ -41,8 +37,6 @@ class Backoffice::AdminsController < BackofficeController
 		end
 	end
 
-<<<<<<< HEAD
-=======
 	def destroy
 		admin_email = @admin.email
 
@@ -53,7 +47,6 @@ class Backoffice::AdminsController < BackofficeController
 			end
 	end
 
->>>>>>> master
 		private
 
 		def set_admin
