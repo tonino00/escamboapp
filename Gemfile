@@ -27,6 +27,9 @@ gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
 #Notifyjs
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 
+#Faker
+gem 'faker'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
