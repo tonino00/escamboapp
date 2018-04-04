@@ -4,8 +4,13 @@ Rails.application.routes.draw do
   get 'backoffice', to: 'backoffice/dashboard#index'
 
   namespace :backoffice do
+<<<<<<< HEAD
     resources:categories, except: [:show, :destroy]
     resources:admins, except: [:show, :destroy]
+=======
+    resources:categories, except: [:show]
+    resources:admins, except: [:show]
+>>>>>>> master
     get 'dashboard', to: 'dashboard#index'
   end
 
