@@ -21,14 +21,14 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 #Sb Admin
 gem 'bootstrap_sb_admin_base_v2'
-
+#Bootstrap
 gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
-
 #Notifyjs
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
+#BootboxJS
+gem 'rails-assets-bootbox', source: 'https://rails-assets.org'
 
-#Faker
-gem 'faker'
+
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -60,10 +60,11 @@ group :development, :test do
 end
 
 group :development do
+  #Faker
+  gem 'faker'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
