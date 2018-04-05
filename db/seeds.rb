@@ -30,7 +30,12 @@ categories = [ "Animais e acessórios" ,
 	puts "Cadastrando o ADMINISTRADOR Padrão..."
 
 
-			Admin.create!(email: "admin@admin.com", password: "123456", password_confirmation: "123456")
+			Admin.create!(
+					name:"Administrador Geral",
+					email: "admin@admin.com", 
+					password: "123456", 
+					password_confirmation: "123456"
+			)
 
 
 		puts "ADMINISTRADOR cadastrado com sucesso!"
