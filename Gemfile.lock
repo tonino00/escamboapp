@@ -103,12 +103,8 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
-<<<<<<< HEAD
     pg (0.18.4)
-    rack (1.6.8)
-=======
     rack (1.6.9)
->>>>>>> master
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.9)
